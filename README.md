@@ -1,7 +1,7 @@
 # Reprodução do estudo “Identifying Malignant Skin Diseases Through Deep Learning (PAD-UFES-20)”
 
 Este repositório traz uma **reprodução parcial e documentada** do estudo (RITA 2025) sobre classificação de lesões cutâneas no **PAD-UFES-20** usando **Vision Transformer (ViT-B/16)**.  
-O objetivo é permitir que qualquer pessoa **organize os dados, gere splits, treine, avalie, crie tabelas e figuras, faça predições avulsas e reconstrua resultados a partir de checkpoints** — de forma simples e rastreável.
+O objetivo é permitir que o leitor **organize os dados, gere splits, treine, avalie, crie tabelas e figuras, faça predições avulsas e reconstrua resultados a partir de checkpoints** — de forma simples e rastreável.
 
 ---
 
