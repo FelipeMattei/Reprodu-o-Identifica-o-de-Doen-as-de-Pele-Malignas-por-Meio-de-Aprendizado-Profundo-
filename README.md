@@ -4,7 +4,7 @@ Reprodução **parcial e documentada** do estudo _Identifying Malignant Skin Dis
 
 ---
 
-## ✨ Visão geral
+##  Visão geral
 
 - **Tarefa**: classificação de lesões cutâneas (multiclasse) no **PAD-UFES-20**.  
 - **Backbone**: **ViT-B/16** pré-treinado (ImageNet).  
@@ -16,19 +16,36 @@ Reprodução **parcial e documentada** do estudo _Identifying Malignant Skin Dis
 
 ---
 
-## 🧰 Ambiente e requisitos
+##  Ambiente e requisitos
 
 **Sistema testado**: Windows + **NVIDIA RTX 2050 (CUDA)**, **VS Code**, **Python 3.12**  
 *(Funciona também em 3.10–3.12 com as versões abaixo.)*
 
-### `requirements.txt`
-```txt
-torch==2.4.0
-torchvision==0.19.0
-torchaudio==2.4.0
-scikit-learn==1.5.1
-pandas==2.2.2
-matplotlib==3.9.1
-numpy==1.26.4
-tqdm==4.66.4
-opencv-python==4.10.0.84
+##  Estrutura do repositorio
+
+pad-ufes20-vit-repro/
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ config.yaml
+├─ src/
+│  ├─ datasets.py
+│  ├─ evaluate.py
+│  ├─ losses.py
+│  ├─ make_figs.py
+│  ├─ models.py
+│  ├─ predict.py
+│  ├─ rebuild_results_from_ckpts.py
+│  ├─ split_maker.py
+│  └─ train.py
+├─ data/
+│  └─ PAD-UFES-20/
+│     ├─ metadata.csv
+│     ├─ imgs_part_1/ …
+│     ├─ imgs_part_2/ …
+│     ├─ imgs_part_3/ …
+│     └─ splits/            # gerado pelo script
+└─ reports/
+   ├─ checkpoints/          # .pt (considerar Git LFS)
+   ├─ tables/               # CSVs de resultados
+   └─ figs/                 # Gráficos .png
