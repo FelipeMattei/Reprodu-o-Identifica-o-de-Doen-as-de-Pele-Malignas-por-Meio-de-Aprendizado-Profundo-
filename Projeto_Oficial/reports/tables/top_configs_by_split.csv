@@ -1,0 +1,4 @@
+split,model,focal,F1_mean,F1_std,Acc_mean,Acc_std
+PAD-UFES-FULL,vit_base,NF,0.6284,0.0344,0.7196,0.0092
+PAD-UFES,vit_base,F,0.6214,0.0114,0.7209,0.01
+PAD-UFES-IS,vit_base,NF,0.5034,0.0249,0.6402,0.0265
