@@ -54,7 +54,7 @@ As pastas em `reports/` são criadas automaticamente pelos scripts.
 - **Dataset (PAD-UFES-20) para baixar**: (https://www.kaggle.com/datasets/mahdavi1202/skin-cancer?resource=download)
   Descompacte em: `data/PAD-UFES-20/` mantendo `metadata.csv` e as pastas `imgs_part_*`.
 
-- **Checkpoints prontos (.pt)**: <COLOQUE_AQUI_O_LINK_DOS_CHECKPOINTS_NO_DRIVE>  
+- **Checkpoints prontos (.pt)**: (https://drive.google.com/file/d/17xEc5mPOhBvv9I7fupxiNCQUCV_od8ZZ/view?usp=sharing)  
   Coloque os arquivos em: `reports/checkpoints/`  
   Padrão de nome esperado: `vit_base_<SPLIT>_fold<F>_{focal|nofocal}.pt`
 
